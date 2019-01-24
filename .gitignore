@@ -1,0 +1,64 @@
+# IDE
+.gradle/
+build/
+*~
+.DS_Store
+.project
+/out/
+output/
+.bundle
+vendor/ruby
+output_stage_one/
+.idea/
+.idea_modules/
+*.iml
+*.class
+.settings/
+.classpath
+.fbExcludeFilterFile
+.fbIncludeFilterFile
+/tmp
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.rpm
+*.ipr
+*.iws
+target/
+pom.xml.versionsBackup
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+
+# Project
+*.log
+*.log.gz
+*.retry
+/config/*.xml.gz
+/config/input/*.xml.gz
+/config/input/*.xml
+/config/processed/*.xml.gz
+/data/
+local-*.conf
+*.avro
+/docker/reporting/azkaban-executor/lib
+!/dependencies/*
+
+# Environment specific files
+*.env
+docker/services/dev-volume
+generated-docs
